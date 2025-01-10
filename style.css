@@ -1,0 +1,338 @@
+body,html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+  .HomeContent img{
+    width: 1000px;
+  }
+
+  .card-unggul{
+    display: flex;
+    /* width: 10vw; */
+
+  }
+}
+
+.sidebar .nav-link {
+  font-size: .999rem;
+  font-weight: 500;
+  color: rgb(138, 138, 138);
+  margin-left: 10px;
+}
+
+.sidebar .nav-link:hover{
+  color: rgb(82, 206, 255);
+}
+
+
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+
+
+.home{
+  display: flex;
+  padding: 25px 50px;
+  border-radius: 30px;
+}
+.HomeContent span{
+  font-size: 50px;
+  margin-left: 30px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.HomeContent{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+
+}
+
+.home img{
+  width: 20vw;
+  border-radius: 20px;
+  object-fit:contain;
+}
+
+.HomeContent p{
+  margin-left: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+
+.canvas{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 40px 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom:50px ;
+
+}
+
+.canvas .top,
+.table-canvas .top{
+font-size: 35px;
+font-weight: 600;
+
+}
+
+.wrap{
+  margin-top: 80px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.wrap .card-unggul{
+  width: 400px;
+  height: 550px;
+  padding: 30px 30px;
+  flex-direction: column;
+  display: flex;
+  gap: 25px;
+  border-radius: 5%;
+  transition: background-color 1s;
+
+}
+
+.card-unggul i{
+  font-size: 70px;
+}
+
+.card-unggul span{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-unggul:hover{
+  background-color: rgba(0, 0, 0, 0.072);
+}
+
+
+
+
+
+
+*{
+  /* border: solid red; */
+}
+
+
+
+
+
+
+.Produk-Head,
+.Lokasi-Head,
+.Jasa-Head,
+.Ulasan-Head,
+.Hubungi-Head{
+  display: flex;
+  padding: 0px 20px;
+  border-radius: 30px;
+}
+
+.Produk-Content,
+.Lokasi-Content,
+.Jasa-Content,
+.Ulasan-Content,
+.Hubungi-Content{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.Produk-Content span,
+.Lokasi-Content span,
+.Jasa-Content span,
+.Ulasan-Content span,
+.Hubungi-Content span{
+  font-size: 40px;
+  margin-left: 30px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.canvas-lokasi{
+  /* display: flex; */
+  margin-top: 20px;
+  padding: 40px 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom:50px ;
+  gap: 20px;
+}
+
+.CardMaps iframe{
+  height: 60vh;
+  width: 100%;
+  border-radius:30px 30px 0px 0px;
+
+}
+
+.CardMaps,
+.CardUlasan{
+  border-radius: 30px;
+  border: none;
+}
+
+.shadow-sm{
+  transition: background-color 1s;
+}
+
+.shadow-sm:hover{
+  background-color: rgba(0, 0, 0, 0.209);
+}
+
+
+
+
+
+
+
+
+
+
+.card-footer{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.produk{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 40px 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom:50px ;
+}
+
+.table-canvas{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 40px 0px;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom:50px ;
+}
+
+.wrap-table{
+  padding: 0px 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.wrap-hubungi{
+  padding: 0px 70px;
+  margin: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.CardHubungi{
+  text-align: left;
+  border-radius: 30px;
+  /* background-color: red; */
+  border: none;
+
+}
+
+.contact-info div{
+  padding: 5px 0px;
+}
+
+.CardHubungi .card-body{
+  padding: 50px 50px;
+}
+
+textarea{
+  resize: none;
+}
+
+.Button{
+  display: flex;
+  justify-content: right;
+
+  gap: 20px;
+}
+
+.Button button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+
+
+
+
+
+
+footer{
+  text-align: center;
+  padding: 15px 0px;
+  background-color: black;
+  color: white;
+}
